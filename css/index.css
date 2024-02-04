@@ -1,6 +1,6 @@
 .css-star{
     cursor: pointer;
-    margin: 20px;
+    margin: 0px 20px;
     font-size: 50px;
 }
 
@@ -27,7 +27,6 @@
 }
 
 .css-res{
-
     margin-top: 20px;
     font-size: 40px;
     color: rgb(16, 16, 15);
@@ -35,8 +34,6 @@
 
 .css-deflt-txt{
     color: rgb(221, 204, 10);
-
-
 }
 
 .css-heading{
@@ -48,3 +45,23 @@
 
 }
 
+
+
+/*-------------------------------------Responsive code -------------------------------------*/
+
+@media only screen and (max-width : 600px){
+    .css-star{
+        margin:0px 10px;
+        font-size: 40px;
+    }
+    
+    .css-res{
+        font-size: 30px;
+    }
+
+    .css-rating-box{
+        margin: 0px 40px;    
+    }
+
+  
+}
