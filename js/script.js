@@ -14,7 +14,6 @@ console.log(stars)
 stars.forEach((item,index) => {
     item.addEventListener('click',() => {  
         console.log('old index : ',index)
-
         res = index+1;
         stars.forEach((item, newindex) => {
 
